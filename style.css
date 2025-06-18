@@ -6,36 +6,35 @@
   justify-content: space-around;
   flex: 3;
 }
-
 .header-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-
 .header-top {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
+h3 {
+  font-size: 30px;
+}
 ul {
   display: flex;
   gap: 30px;
 }
-
 img {
   width: 100px;
   border: blue solid;
+  border-radius: 16px;
 }
-
 li,
 a {
   text-decoration: none;
   list-style: none;
   color: #e5e7eb;
 }
-
 body {
   height: 100vh;
   margin: 0;
@@ -45,35 +44,31 @@ body {
   flex: 1;
   font-family: roboto;
 }
-
 .middle-content {
   display: flex;
 }
-
 .cards {
   display: flex;
   flex-direction: column;
-  max-width: 170px;
+  max-width: 110px;
 }
-
 .header-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .third {
   display: flex;
   flex: 3;
   background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
 }
-
 .bottom {
   display: flex;
   flex: 3;
   background-color: white;
 }
-
 .second {
   display: flex;
   flex: 3;
@@ -81,18 +76,17 @@ body {
   background-color: white;
   align-items: center;
 }
-
 .container {
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 70px;
+  gap: 40px;
 }
-
-.text {
-  max-width: 100px;
+#quote {
+  font-size: 25px;
+  font-style: italic;
+  max-width: 25em;
 }
-
 .footer {
   display: flex;
   flex: 1;
@@ -100,4 +94,10 @@ body {
   align-items: center;
   background-color: #1f2937;
   color: #f9faf8;
+}
+#thor {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
 }
