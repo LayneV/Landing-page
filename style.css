@@ -1,0 +1,103 @@
+.header {
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 3;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+img {
+  width: 100px;
+  border: blue solid;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #e5e7eb;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: roboto;
+}
+
+.middle-content {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 170px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third {
+  display: flex;
+  flex: 3;
+  background-color: #e5e7eb;
+}
+
+.bottom {
+  display: flex;
+  flex: 3;
+  background-color: white;
+}
+
+.second {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 70px;
+}
+
+.text {
+  max-width: 100px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
